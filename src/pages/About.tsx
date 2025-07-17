@@ -1,7 +1,6 @@
 import React from 'react';
 import PageHeader from '../components/common/PageHeader';
 import SectionTitle from '../components/common/SectionTitle';
-import FeatureBlock from '../components/common/FeatureBlock';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { 

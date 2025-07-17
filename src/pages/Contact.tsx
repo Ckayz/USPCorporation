@@ -70,7 +70,7 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg mb-1">Our Location</h3>
-                    <p className="text-gray-600">123 Industrial Avenue, Kuala Lumpur, Malaysia</p>
+                    <p className="text-gray-600">15-1, Jalan 2/116B, Kuchai Entrepreneur Park,Off Jalan Klang Lama, 58200, Malaysia</p>
                   </div>
                 </div>
                 
@@ -80,8 +80,8 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg mb-1">Phone Number</h3>
-                    <p className="text-gray-600">+60 3 1234 5678</p>
-                    <p className="text-gray-600">+60 3 8765 4321</p>
+                    <p className="text-gray-600">+60 123115165</p>
+                    <p className="text-gray-600">+60 122980802</p>
                   </div>
                 </div>
                 
@@ -91,7 +91,7 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg mb-1">Email Address</h3>
-                    <p className="text-gray-600">info@uspcorporation.my</p>
+                    <p className="text-gray-600">uspcorporation88@gmail.com</p>
                     <p className="text-gray-600">sales@uspcorporation.my</p>
                   </div>
                 </div>
@@ -262,7 +262,7 @@ const Contact: React.FC = () => {
         <div className="container-custom text-center">
           <h2 className="text-3xl font-bold mb-4">Looking for immediate assistance?</h2>
           <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
-            Call our customer service team directly at <span className="text-primary-700 font-semibold">+60 3 1234 5678</span> for urgent inquiries or assistance.
+            Call our customer service team directly at <span className="text-primary-700 font-semibold">+60 123135165</span> for urgent inquiries or assistance.
           </p>
           <div className="inline-flex items-center justify-center px-6 py-3 border border-primary-700 text-primary-700 rounded-md hover:bg-primary-50 transition-colors">
             <Phone className="mr-2 h-5 w-5" />

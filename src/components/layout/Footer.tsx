@@ -8,23 +8,38 @@ const Footer: React.FC = () => {
       <div className="container-custom">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
-          <div>
-            <h3 className="text-xl font-bold mb-4">USP Corporation</h3>
-            <p className="text-gray-300 mb-4">
-              Malaysia's trusted provider of industrial lifts, SHE compliance, and construction since 2002.
-            </p>
-            <div className="flex space-x-4">
-              <a href="#" className="text-white hover:text-primary-400 transition-colors">
-                <Facebook size={20} />
-              </a>
-              <a href="#" className="text-white hover:text-primary-400 transition-colors">
-                <Linkedin size={20} />
-              </a>
-              <a href="#" className="text-white hover:text-primary-400 transition-colors">
-                <Instagram size={20} />
-              </a>
-            </div>
-          </div>
+<div>
+  <h3 className="text-xl font-bold mb-4">USP Corporation</h3>
+  <p className="text-gray-300 mb-4">
+    Malaysia's trusted provider of industrial lifts, SHE compliance, and construction since 2002.
+  </p>
+  <div className="flex space-x-4">
+    <a
+      href="https://www.facebook.com/share/19ri1qgBY3/?mibextid=wwXIfr" // <- Replace with your real URL
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-white hover:text-primary-400 transition-colors"
+    >
+      <Facebook size={20} />
+    </a>
+    <a
+      href="http://linkedin.com/in/uspcorporation-sdn-bhd-6393b9375"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-white hover:text-primary-400 transition-colors"
+    >
+      <Linkedin size={20} />
+    </a>
+    <a
+      href="https://www.instagram.com/usp.corporations?igsh=MXZsNmt5enk1ZzIzbQ=="
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-white hover:text-primary-400 transition-colors"
+    >
+      <Instagram size={20} />
+    </a>
+  </div>
+</div>
 
           {/* Quick Links */}
           <div>
@@ -81,15 +96,15 @@ const Footer: React.FC = () => {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <MapPin className="mr-2 h-5 w-5 text-primary-400" />
-                <span className="text-gray-300">123 Industrial Avenue, Kuala Lumpur, Malaysia</span>
+                <span className="text-gray-300">15-1, Jalan 2/116B, Kuchai Entrepreneur Park,Off Jalan Klang Lama, 58200, Malaysia</span>
               </li>
               <li className="flex items-center">
                 <Phone className="mr-2 h-5 w-5 text-primary-400" />
-                <span className="text-gray-300">+60 3 1234 5678</span>
+                <span className="text-gray-300">+60 123115165</span>
               </li>
               <li className="flex items-center">
                 <Mail className="mr-2 h-5 w-5 text-primary-400" />
-                <span className="text-gray-300">info@uspcorporation.my</span>
+                <span className="text-gray-300">Uspcorporation88@gmail.com</span>
               </li>
               <li className="flex items-start">
                 <Clock className="mr-2 h-5 w-5 text-primary-400" />

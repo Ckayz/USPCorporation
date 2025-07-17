@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Layout from './components/layout/Layout';
 import Home from './pages/Home';
@@ -9,8 +9,22 @@ import ProjectDetail from './pages/ProjectDetail';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import ScrollToTop from './components/common/ScrollToTop';
+import LoadingLoader from './components/common/LoadingLoader';
 
-function App() {
+
+const App: React.FC = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // Fallback: hide loader after 3s in case video doesn't end
+    const timer = setTimeout(() => setLoading(false), 3000);
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) {
+    return <LoadingLoader />;
+  }
+
   return (
     <Router>
       <ScrollToTop />
@@ -27,6 +41,6 @@ function App() {
       </Layout>
     </Router>
   );
-}
+};
 
 export default App;

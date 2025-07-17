@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
-import { Menu, X, ChevronDown } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 const navigation = [
   { name: 'Home', href: '/' },
@@ -31,19 +31,20 @@ const Header: React.FC = () => {
 
   return (
     <header
-      className={`fixed w-full z-50 transition-all duration-300 ${
-        scrolled ? 'bg-white shadow-md py-2' : 'bg-transparent py-4'
-      }`}
+      className={
+        `fixed w-full z-50 transition-all duration-300 bg-white bg-opacity-90 shadow-md py-2`
+      }
     >
       <div className="container-custom">
         <div className="flex justify-between items-center">
           {/* Logo */}
-          <div className="flex-shrink-0">
-            <NavLink to="/" className="flex items-center">
-              <span className="text-2xl font-bold text-primary-700">USP</span>
-              <span className="text-2xl font-medium text-gray-800">corporation</span>
-            </NavLink>
-          </div>
+          <NavLink to="/" className="flex items-center">
+            <img
+              src="/Usp.Logo.png"
+              alt="USP Group of Companies Logo"
+              className="h-11 w-auto max-w-xs"
+            />
+          </NavLink>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-1">

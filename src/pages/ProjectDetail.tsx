@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { ArrowLeft, Calendar, Building2, MapPin, CheckCircle, AlertTriangle, Lightbulb, Download } from 'lucide-react';
+import { ArrowLeft, Calendar, Building2, MapPin, CheckCircle, AlertTriangle, Lightbulb } from 'lucide-react';
 import { projects } from '../data/projectData';
 import PageHeader from '../components/common/PageHeader';
 import SectionTitle from '../components/common/SectionTitle';
